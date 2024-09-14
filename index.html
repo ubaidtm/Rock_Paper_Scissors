@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stone-Paper-Sizors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div class="banner-container">
+                <div class="logo"><img src="./images/rock-paper-scissors-icon-set-260nw-1804156864.webp"></div>
+                <div class="container">
+                   <div class="settings"></div>
+                   <div class="game-section">
+                    <div class="win-title">
+                        <div id="win-display">R/P/S</div>
+                        <div class="vs"></div>
+                    </div>
+                    <div class="left show">
+                        <div class="game-display">
+                            <img src="./images/stone-transformed.jpeg" id="playerDisplay">
+                        </div>
+                        <div class="score-box">
+                            <span>Player</span>
+                            <span id="playerScoreElement"></span>
+                        </div>
+                    </div>
+                    <div class="right show">
+                        <div class="game-display">
+                            <img async src="./images/stone-transformed.jpeg" id="computerDisplay">
+                        </div>
+                        <div class="score-box">
+                            <span>Computer</span>
+                            <span id="computerScoreElement"></span>
+                        </div>
+                    </div>
+                   </div>
+                   <button class="resetBtn" onClick="clearAll()">Reset</button>
+                   <div class="buttons">
+                    <button value="rock" class="rpsButton"></button>
+                    <button value='paper' class="rpsButton"></button>
+                    <button value='scissors' class="rpsButton"></button>
+                   </div>
+                </div>
+            </div>
+        </main>
+        <script src="practice.js"></script>
+    </body>
+</html>
+
+
+
+
+
+<body>
+    <div class="container">
+        <div class="wrapper"></div>
+        <div class="wrapper"></div>
+        <div class="wrapper"></div>
+    </div>
+    <button>selection</button>
+</body>
